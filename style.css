@@ -3,7 +3,7 @@ p {
     font-size: 14px;
     background-color: white;
     padding: 20px;
-    width: 400px;
+    width: 50%;
 }
 
 .nav {
@@ -39,7 +39,7 @@ body {
 
 img {
     align-self: left;
-    width: 600px;
+    width: 50%;
 }
 
 h4 {
