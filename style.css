@@ -5,5 +5,11 @@ p {
 
 .nav {
     font-size: 14px;
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
 }
 
