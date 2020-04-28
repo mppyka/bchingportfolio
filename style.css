@@ -20,7 +20,7 @@ h1 {
     text-align: center;
     font-size: 36px;
     background-color: rgb(17, 17, 104);
-    font: white !important;
+    color: white !important;
     float: center;
     padding: 20px;
 }
