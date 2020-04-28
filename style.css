@@ -1,6 +1,6 @@
 p {
     color: black;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .nav {
@@ -9,7 +9,26 @@ p {
 }
 
 a {
+    color: black; 
     outline: none;
     text-decoration: none;
 }
 
+h1 {
+    align-content: center;
+    font-size: 36px;
+    background-color: rgb(17, 17, 104);
+    color: white;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+img {
+    align-self: left;
+}
+
+h4 {
+    align-content: right;
+}
