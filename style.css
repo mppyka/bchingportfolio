@@ -17,12 +17,19 @@ a {
 }
 
 h1 {
-    align-content: center;
+    text-align: center;
     font-size: 36px;
     background-color: rgb(17, 17, 104);
-    font: white;
+    font: white !important;
     float: center;
     padding: 20px;
+}
+
+h2 {
+    background-color: white;
+    float: center;
+    padding: 20px;
+    text-align: center;
 }
 
 body {
