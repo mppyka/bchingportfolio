@@ -35,6 +35,7 @@ h2 h3{
 body {
     background-color: cornflowerblue;
     margin: 30px;
+    font: Arial; 
 }
 
 img {
