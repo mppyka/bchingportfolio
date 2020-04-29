@@ -4,6 +4,7 @@ p {
     background-color: white;
     padding: 20px;
     width: 50%;
+    float: right;
 }
 
 .nav {
@@ -27,8 +28,10 @@ h1 {
 
 h2 h3{
     background-color: white;
-    float: center;
+    float: right;
     padding: 20px;
+    text-align: center;
+    font-size: 14px;
 }
 
 body {
@@ -38,6 +41,7 @@ body {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
+    min-width: 320px;
 }
 
 img {
