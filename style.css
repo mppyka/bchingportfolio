@@ -36,6 +36,9 @@ body {
     background-color: cornflowerblue;
     margin: 30px;
     font: Arial; 
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 img {
