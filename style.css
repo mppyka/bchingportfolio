@@ -47,7 +47,8 @@ body {
 
 img {
     align-self: left;
-    width: 50%;
+    min-width: 320px;
+    max-width: 50%;
 }
 
 h4 {
