@@ -39,7 +39,6 @@ h2 h3{
 body {
     background-color: cornflowerblue;
     margin: 30px;
-    font: Arial; 
     position: relative;
     display: inline-block;
     box-sizing: border-box;
@@ -59,4 +58,9 @@ h4 {
 
 .title {
     color: white;
+}
+
+@font-face {
+    font-family: Source Sans Pro;
+    src: "fonts";
 }
