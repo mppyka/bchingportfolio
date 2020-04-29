@@ -4,6 +4,7 @@ p {
     background-color: white;
     padding: 20px;
     min-width: 280px;
+    max-width: 400px;
     float: right;
     margin: 20px;
 }
@@ -29,7 +30,29 @@ h1 {
     min-width: 280px;
 }
 
-h2 h3 h4{
+h2 {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px;
+    min-width: 280px;
+}
+
+h3 {
+    background-color: white;
+    float: right;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    max-width: 400px;
+    margin: 20px;
+    min-width: 280px;
+}
+
+h4 {
     background-color: white;
     float: right;
     padding: 20px;
@@ -49,6 +72,10 @@ body {
     min-width: 320px;
 }
 
+section {
+    background-color: white;
+    width: 800px;
+}
 img {
     align-self: left;
     min-width: 280px;
