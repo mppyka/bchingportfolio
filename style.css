@@ -21,7 +21,7 @@ a {
 h1 {
     text-align: center;
     font-size: 36px;
-    background-color: rgb(17, 17, 104);
+    background-color: #2f548f;
     color: white !important;
     float: center;
     padding: 20px;
@@ -37,7 +37,7 @@ h2 h3{
 }
 
 body {
-    background-color: cornflowerblue;
+    background-color: #cbdcf7;
     margin: 30px;
     position: relative;
     display: inline-block;
@@ -57,7 +57,7 @@ h4 {
     background-color: white;
 }
 
-.title {
+#title {
     color: white;
 }
 
