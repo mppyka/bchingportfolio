@@ -66,6 +66,8 @@ section {
     background-color: white;
     min-width: 280px;
     margin: 40px;
+    max-width: 3000px;
+    float: center;
 }
 
 body {
