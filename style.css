@@ -95,7 +95,7 @@ h4 {
 }
 
 footer {
-    align-content: center;
+    float: center;
 }
 
 @font-face {
