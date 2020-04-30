@@ -49,6 +49,7 @@ h3 {
     font-size: 18px;
     margin: 20px;
     min-width: 240px;
+    max-width: 3000px;
 }
 
 h4 {
