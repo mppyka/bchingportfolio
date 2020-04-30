@@ -72,11 +72,9 @@ section {
 
 body {
     background-color: #cbdcf7;
-    margin: 30px;
     position: relative;
     display: inline-block;
     box-sizing: border-box;
-    min-width: 320px;
 }
 
 img {
