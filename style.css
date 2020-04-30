@@ -43,11 +43,10 @@ h2 {
 
 h3 {
     background-color: white;
-    float: right;
+    float: center;
     padding: 20px;
     text-align: center;
-    font-size: 14px;
-    max-width: 400px;
+    font-size: 18px;
     margin: 20px;
     min-width: 260px;
 }
