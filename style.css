@@ -9,9 +9,10 @@ p {
     margin: 20px;
 }
 
-.nav {
-    font-size: 14px;
+ul {
+    font-size: 18px;
     list-style: none;
+    width: 100%;
 }
 
 a {
@@ -75,7 +76,7 @@ body {
     position: relative;
     display: inline-block;
     box-sizing: border-box;
-    background-size: 8000px;
+    background-size: 100%;
 }
 
 img {
