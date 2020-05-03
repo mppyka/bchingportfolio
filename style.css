@@ -10,9 +10,9 @@ p {
 }
 
 ul {
-    font-size: 18px;
+    font-size: 14px;
     list-style: none;
-    width: 100%;
+    display: inline;
 }
 
 a {
@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     background-color: white;
-    float: right;
+    float: center;
     padding: 20px;
     font-size: 24px;
     max-width: 400px;
@@ -80,7 +80,7 @@ body {
 }
 
 img {
-    align-self: left;
+    float: left;
     min-width: 240px;
     max-width: 400px;
     margin: 20px;
