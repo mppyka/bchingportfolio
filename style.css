@@ -72,7 +72,7 @@ section {
 }
 
 body {
-    background-image: url("images/background.jpg");
+    background-image: url("images/background.jpg"), url("images/kotor2.png");
     position: relative;
     display: inline-block;
     box-sizing: border-box;
