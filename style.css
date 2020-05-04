@@ -70,6 +70,7 @@ section {
     margin: 40px;
     max-width: 100%;
     float: center;
+    height: 100%;
 }
 
 body {
@@ -98,7 +99,7 @@ h4 {
 }
 
 footer {
-    float: center;
+    float: clear;
     min-width: 240px;
     max-width: 5000px;
 }
