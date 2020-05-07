@@ -12,7 +12,6 @@ p {
 ul {
     font-size: 14px;
     list-style: none;
-    display: grid;
 }
 
 li {
