@@ -4,7 +4,7 @@ p {
     background-color: white;
     padding: 20px;
     min-width: 240px;
-    max-width: 400px;
+    max-width: 45%;
     float: right;
     margin: 20px;
 }
@@ -35,7 +35,7 @@ h2 {
     float: center;
     padding: 20px;
     font-size: 24px;
-    max-width: 400px;
+    max-width: 100%;
     margin: 20px;
     min-width: 240px;
 }
@@ -53,21 +53,20 @@ h3 {
 
 h4 {
     background-color: white;
-    float: right;
+    float: left;
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    max-width: 10000px;
+    max-width: 45%;
     margin: 20px;
     min-width: 240px;
-    align-content: right;
 }
 
 section {
     background-color: white;
     min-width: 280px;
     margin: 40px;
-    max-width: 1366px;
+    max-width: 100%;
     float: center;
     height: 100%;
     position: relative;
@@ -84,7 +83,7 @@ body {
 img {
     float: left;
     min-width: 240px;
-    max-width: 400px;
+    max-width: 45%;
     margin: 20px;
 }
 
@@ -96,7 +95,7 @@ footer {
     float: clear;
     float: center;
     min-width: 240px;
-    max-width: 5000px;
+    max-width: 100%;
 }
 
 @font-face {
