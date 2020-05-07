@@ -79,6 +79,7 @@ body {
     position: relative;
     background-size: 100%;
     background-attachment: fixed;
+    display: inline-block;
 }
 
 img {
@@ -87,7 +88,7 @@ img {
     margin: 20px;
 }
 
-.title {
+#title {
     color: white;
 }
 
