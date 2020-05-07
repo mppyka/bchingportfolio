@@ -12,8 +12,7 @@ p {
 ul {
     font-size: 14px;
     list-style: none;
-    display: inline;
-    display: table;
+    display: grid inline;
 }
 
 a {
@@ -90,11 +89,7 @@ img {
 }
 
 .title {
-    font: white;
-}
-
-.nav {
-    display: grid inline;
+    color: white;
 }
 
 footer {
