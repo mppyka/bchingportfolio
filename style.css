@@ -23,9 +23,9 @@ a {
 
 h1 {
     text-align: center;
+    display: block;
     font-size: 36px;
     background-color: #94ebe8;
-    float: center;
     padding: 20px;
     min-width: 240px;
     max-width: 100%;
@@ -33,17 +33,17 @@ h1 {
 
 h2 {
     background-color: white;
-    float: center;
     padding: 20px;
     font-size: 24px;
     max-width: 100%;
     margin: 20px;
     min-width: 240px;
+    display: block;
 }
 
 h3 {
     background-color: white;
-    float: center;
+    display: block;
     padding: 20px;
     text-align: center;
     font-size: 18px;
@@ -68,7 +68,6 @@ section {
     min-width: 280px;
     margin: 40px;
     max-width: 100%;
-    float: center;
     height: 100%;
     position: relative;
 }
@@ -93,8 +92,7 @@ img {
 }
 
 footer {
-    float: clear;
-    float: center;
+    display: block;
     min-width: 240px;
     max-width: 100%;
 }
