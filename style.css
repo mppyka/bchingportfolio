@@ -4,7 +4,7 @@ p {
     background-color: white;
     padding: 20px;
     min-width: 240px;
-    max-width: 45%;
+    max-width: 40%;
     float: right;
     margin: 20px;
 }
@@ -28,6 +28,7 @@ h1 {
     float: center;
     padding: 20px;
     min-width: 240px;
+    max-width: 100%;
 }
 
 h2 {
@@ -57,7 +58,7 @@ h4 {
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    max-width: 45%;
+    max-width: 40%;
     margin: 20px;
     min-width: 240px;
 }
@@ -83,7 +84,7 @@ body {
 img {
     float: left;
     min-width: 240px;
-    max-width: 45%;
+    max-width: 40%;
     margin: 20px;
 }
 
