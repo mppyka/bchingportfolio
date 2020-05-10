@@ -27,7 +27,7 @@ h1 {
     text-align: center;
     display: block;
     font-size: 36px;
-    background-color: #94ebe8;
+    background-color: #3c85c9;
     padding: 20px;
     min-width: 240px;
     max-width: 100%;
@@ -99,12 +99,37 @@ footer {
     max-width: 100%;
 }
 
-ol li:hover {
+ol li a {
+    opacity: 0;
+    display: block;
+}
+
+ol li a:hover {
     visibility: visible;
     opacity: 1;
     display: block;
-    background-color: #94ebe8;
+    background-color: #3c85c9;
+    clear: both;
 }
+
+.image1 {
+    grid-area: image;
+    display: block;
+}
+
+.text1 {
+    grid-area: text;
+    display: block;
+}
+
+.index1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1px 1px;
+    grid-template-areas: "image text";
+}
+
 @font-face {
     font-family: Source Sans Pro;
     src: "fonts/SourceSansPro-Regular";
