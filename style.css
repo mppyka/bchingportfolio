@@ -15,6 +15,7 @@ ul {
 
 li {
     display: inline-block;
+    font-family: Source Sans Pro;
 }
 
 a {
@@ -98,6 +99,12 @@ footer {
     max-width: 100%;
 }
 
+ol li:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    background-color: #94ebe8;
+}
 @font-face {
     font-family: Source Sans Pro;
     src: "fonts/SourceSansPro-Regular";
