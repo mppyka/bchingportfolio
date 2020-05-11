@@ -58,12 +58,9 @@ h3 {
 
 h4 {
     background-color: white;
-    float: left;
     padding: 20px;
     text-align: center;
     font-size: 14px;
-    max-width: 40%;
-    margin: 20px;
     min-width: 240px;
 }
 
@@ -115,19 +112,52 @@ ol li a:hover {
 .image1 {
     grid-area: image;
     display: block;
+    position: relative;
+    width: 100%;
 }
 
 .text1 {
     grid-area: text;
     display: block;
+    position: relative;
+    width: auto;
+    padding: 0%;
 }
 
 .index1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    grid-template-columns: 40% 40%;
     gap: 1px 1px;
     grid-template-areas: "image text";
+}
+
+.index1 h4 {
+    font-size: 12px;
+}
+
+.index h4 img p {
+    padding: 20px;
+    margin: 0px;
+    min-width: 240px;
+    max-width: 100%;
+}
+
+.index h3 {
+    font-size: 18px;
+    font-family: Source Sans Pro;
+}
+
+.foot {
+    margin: 20px;
+    border-color: #3c85c9;
+    border-width: thick;
+    padding: 20px;
+}
+
+.foot p a{
+    color: black;
+    font-size: 14px;
+    align-content: center;
 }
 
 @font-face {
