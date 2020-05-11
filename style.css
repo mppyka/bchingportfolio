@@ -116,20 +116,6 @@ footer {
     max-width: 100%;
 }
 
-ol li a {
-    opacity: 0;
-    display: inline-block;
-}
-
-ol li a:hover {
-    visibility: visible;
-    opacity: 1;
-    display: block;
-    background-color: #3c85c9;
-    color: white;
-    clear: both;
-}
-
 .image1 {
     grid-area: image;
     display: block;
