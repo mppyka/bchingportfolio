@@ -12,6 +12,7 @@ p {
 ul {
     font-size: 14px;
     list-style: none;
+    text-align: center;
 }
 
 li {
@@ -19,6 +20,7 @@ li {
     font-family: Source Sans Pro;
     padding: 5px;
 }
+
 
 a {
     color: black;
@@ -47,7 +49,7 @@ h2 {
     padding: 20px;
     font-size: 18px;
     max-width: 100%;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     min-width: 240px;
     display: block;
     font-family: Source Sans Pro;
@@ -77,7 +79,7 @@ section {
     background-color: white;
     min-width: 280px;
     margin: 40px;
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
 }
 
@@ -90,11 +92,11 @@ body {
 }
 
 img {
-    min-width: 240px;
-    max-width: 960px;
+    max-width: 100%;
     margin: 20px;
     align-content: center;
     opacity: 1;
+    position: relative;
 }
 
 img:hover {
@@ -133,26 +135,27 @@ footer {
 
 .index1 {
     display: grid;
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     gap: 1px 1px;
     grid-template-areas: "image text";
+    position: relative;
 }
 
 .index1 h4 {
     font-size: 12px;
 }
 
-.index h4 img a {
-    padding: 20px;
+.index1 h4 {
+    padding: 10px;
     margin: 0px;
     min-width: 240px;
-    max-width: 300px;
+    max-width: 100%;
     align-content: center;
     text-align: center;
     position: relative;
 }
 
-.index h3 {
+.index1 h3 {
     font-size: 18px;
     font-family: Source Sans Pro;
     align-content: center;
@@ -173,6 +176,7 @@ footer {
     color: black;
     font-size: 14px;
     align-content: center;
+    padding: 5px;
 }
 
 .footp {
@@ -183,7 +187,8 @@ footer {
 
 
 .indeximage{
-    width: 100%;
+    min-width: 240px;
+    max-width: 550px;
 }
 
 @font-face {
