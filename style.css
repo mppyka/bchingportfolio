@@ -1,6 +1,6 @@
 p {
     color: black;
-    font-size: 14px;
+    font-size: 18px;
     background-color: white;
     padding: 20px;
     min-width: 240px;
@@ -10,7 +10,7 @@ p {
 }
 
 ul {
-    font-size: 14px;
+    font-size: 18px;
     list-style: none;
     text-align: center;
 }
@@ -42,21 +42,20 @@ h1 {
     min-width: 240px;
     max-width: 100%;
     font-family: Source Sans Pro;
+    margin-bottom: 0em;
 }
 
 h2 {
-    background-color: white;
-    padding: 20px;
-    font-size: 18px;
+    padding: 20px 40px 20px 40px;
+    font-size: 24px;
     max-width: 100%;
-    margin: 0 20px 20px 20px;
+    margin: 0em;
     min-width: 240px;
     display: block;
     font-family: Source Sans Pro;
 }
 
 h3 {
-    background-color: white;
     display: block;
     padding: 20px;
     text-align: center;
@@ -68,10 +67,9 @@ h3 {
 }
 
 h4 {
-    background-color: white;
     padding: 20px;
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     min-width: 240px;
 }
 
@@ -80,12 +78,12 @@ section {
     min-width: 280px;
     margin: 40px;
     max-width: 100%;
-    position: relative;
+     
 }
 
 body {
     background-image: url("images/background.jpg");
-    position: relative;
+     
     background-size: 100%;
     background-attachment: fixed;
     display: inline-block;
@@ -93,10 +91,10 @@ body {
 
 img {
     max-width: 100%;
-    margin: 20px;
+    margin: 1em;
     align-content: center;
     opacity: 1;
-    position: relative;
+     
 }
 
 img:hover {
@@ -118,50 +116,49 @@ footer {
     max-width: 100%;
 }
 
-.image1 {
+.left {
     grid-area: image;
     display: block;
-    position: relative;
-    width: 100%;
+     
+    width: auto;
 }
 
-.text1 {
+.right {
     grid-area: text;
     display: block;
-    position: relative;
+     
     width: auto;
     padding: 0%;
 }
 
-.index1 {
+.row {
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 1px 1px;
     grid-template-areas: "image text";
-    position: relative;
+     
 }
 
-.index1 h4 {
+.row h4 {
     font-size: 12px;
 }
 
-.index1 h4 {
+.row h4 {
     padding: 10px;
     margin: 0px;
     min-width: 240px;
     max-width: 100%;
     align-content: center;
     text-align: center;
-    position: relative;
 }
 
-.index1 h3 {
+.row h3 {
     font-size: 18px;
     font-family: Source Sans Pro;
     align-content: center;
 }
 
-.text1 p {
+.right p {
     text-align: left;
 }
 
@@ -174,22 +171,21 @@ footer {
 
 .foot p {
     color: black;
-    font-size: 14px;
     align-content: center;
     padding: 5px;
 }
 
 .footp {
-    font-size: 14px;
     text-align: center;
     align-content: center;
 }
 
 
 .indeximage{
-    min-width: 240px;
-    max-width: 550px;
+    min-width: 5rem;
+    align-content: center;
 }
+
 
 @font-face {
     font-family: Source Sans Pro;
