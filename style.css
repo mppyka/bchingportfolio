@@ -146,8 +146,6 @@ footer {
 .row h4 {
     padding: 10px;
     margin: 0px;
-    min-width: 240px;
-    max-width: 100%;
     align-content: center;
     text-align: center;
 }
